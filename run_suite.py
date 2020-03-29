@@ -2,11 +2,13 @@ import unittest
 from testcases.test_smoke import LoginTestCase
 from common.constant import REPORT_DIR
 from librarys.HTMLTestRunnerNew import HTMLTestRunner
-import os
+import os,sys
 import time
 from common.send_email import send_email
 
-
+dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.append(dir)
+sys.path.append("C:\Users\lenovo\lmlm\Lib\site-packages")
 
 suite = unittest.TestSuite()
 loader = unittest.TestLoader()
