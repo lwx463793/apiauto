@@ -1,0 +1,42 @@
+2020-03-25 21:56:12 - 【INFO】: 
+Workbook: C:\Users\lenovo\PycharmProjects\lmapi\excels\casesliumei.xlsx, Sheet: liumei
+2020-03-25 21:58:07 - 【INFO】: 
+Workbook: C:\Users\lenovo\PycharmProjects\lmapi\excels\casesliumei.xlsx, Sheet: liumei
+2020-03-25 22:01:00 - 【INFO】: 
+Workbook: C:\Users\lenovo\PycharmProjects\lmapi\excels\casesliumei.xlsx, Sheet: liumei
+2020-03-25 22:04:59 - 【INFO】: 
+Workbook: C:\Users\lenovo\PycharmProjects\lmapi\excels\casesliumei.xlsx, Sheet: liumei
+2020-03-25 22:06:54 - 【INFO】: 
+Workbook: C:\Users\lenovo\PycharmProjects\lmapi\excels\casesliumei.xlsx, Sheet: liumei
+2020-03-25 22:10:29 - 【INFO】: 
+Workbook: C:\Users\lenovo\PycharmProjects\lmapi\excels\casesliumei.xlsx, Sheet: liumei
+2020-03-25 22:12:21 - 【INFO】: 
+Workbook: C:\Users\lenovo\PycharmProjects\lmapi\excels\casesliumei.xlsx, Sheet: liumei
+2020-03-25 22:14:14 - 【INFO】: 
+Workbook: C:\Users\lenovo\PycharmProjects\lmapi\excels\casesliumei.xlsx, Sheet: liumei
+2020-03-25 22:14:14 - 【INFO】: 
+正在以 post 方式 请求 http://test.lemonban.com/futureloan/mvc/api/member/register，参数是 {'data': {'mobilephone': '13012344321', 'pwd': 'liumei', 'regname': 'liumei'}} 
+2020-03-25 22:14:23 - 【INFO】: 
+预期 {'status': 1, 'code': '10001', 'data': None, 'msg': '注册成功'} 
+2020-03-25 22:14:23 - 【INFO】: 
+实际结果是 {"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"} 
+2020-03-25 22:16:39 - 【INFO】: 
+Workbook: C:\Users\lenovo\PycharmProjects\lmapi\excels\casesliumei.xlsx, Sheet: liumei
+2020-03-25 22:16:39 - 【INFO】: 
+正在以 post 方式 请求 http://test.lemonban.com/futureloan/mvc/api/member/register，参数是 {'data': {'mobilephone': '13012344322', 'pwd': 'liumei', 'regname': 'liumei'}} 
+2020-03-25 22:18:21 - 【INFO】: 
+Workbook: C:\Users\lenovo\PycharmProjects\lmapi\excels\casesliumei.xlsx, Sheet: liumei
+2020-03-25 22:18:21 - 【INFO】: 
+正在以 post 方式 请求 http://test.lemonban.com/futureloan/mvc/api/member/register，参数是 {'data': {'mobilephone': '13012344322', 'pwd': 'liumei', 'regname': 'liumei'}} 
+2020-03-25 22:20:42 - 【INFO】: 
+Workbook: C:\Users\lenovo\PycharmProjects\lmapi\excels\casesliumei.xlsx, Sheet: liumei
+2020-03-25 22:20:42 - 【INFO】: 
+正在以 post 方式 请求 http://test.lemonban.com/futureloan/mvc/api/member/register，参数是 {'data': {'mobilephone': '13012344323', 'pwd': 'liumei', 'regname': 'liumei'}} 
+2020-03-25 22:21:32 - 【INFO】: 
+Workbook: C:\Users\lenovo\PycharmProjects\lmapi\excels\casesliumei.xlsx, Sheet: liumei
+2020-03-25 22:21:32 - 【INFO】: 
+正在以 post 方式 请求 http://test.lemonban.com/futureloan/mvc/api/member/register，参数是 {'data': {'mobilephone': '13012344324', 'pwd': 'liumei', 'regname': 'liumei'}} 
+2020-03-25 22:22:46 - 【INFO】: 
+Workbook: C:\Users\lenovo\PycharmProjects\lmapi\excels\casesliumei.xlsx, Sheet: liumei
+2020-03-25 22:22:46 - 【INFO】: 
+正在以 post 方式 请求 http://test.lemonban.com/futureloan/mvc/api/member/register，参数是 {'data': {'mobilephone': '13012344324', 'pwd': 'liumei', 'regname': 'liumei'}} 

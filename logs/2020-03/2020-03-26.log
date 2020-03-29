@@ -1,0 +1,242 @@
+2020-03-26 09:03:17 - 【INFO】: 
+Workbook: C:\Users\lenovo\PycharmProjects\lmapi\excels\casesliumei.xlsx, Sheet: liumei
+2020-03-26 09:03:17 - 【INFO】: 
+正在以 post 方式 请求 http://test.lemonban.com/futureloan/mvc/api/member/register，参数是 {'data': {'mobilephone': '13012344324', 'pwd': 'liumei', 'regname': 'liumei'}} 
+2020-03-26 09:03:17 - 【INFO】: 
+正在以 post 方式 请求 http://test.lemonban.com/futureloan/mvc/api/member/register，参数是 {'data': {'mobilephone': '13012344325', 'pwd': 'liumei', 'regname': 'liumei'}} 
+2020-03-26 09:07:05 - 【INFO】: 
+Workbook: C:\Users\lenovo\PycharmProjects\lmapi\excels\casesliumei.xlsx, Sheet: liumei
+2020-03-26 09:07:05 - 【INFO】: 
+正在以 post 方式 请求 http://test.lemonban.com/futureloan/mvc/api/member/register，参数是 {'data': {'mobilephone': '13012344324', 'pwd': 'liumei', 'regname': 'liumei'}} 
+2020-03-26 09:07:06 - 【ERROR】: 
+预期 {'status': 1, 'code': '10001', 'data': None, 'msg': '注册成功'} 
+Traceback (most recent call last):
+  File "C:\Users\lenovo\PycharmProjects\lmapi\testcases\test_smoke.py", line 21, in test_login_pass
+    self.assertEqual(response.json(), cases.expected)
+  File "D:\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\lib\unittest\case.py", line 1120, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: {'status': 0, 'code': '20110', 'data': None, 'msg': '手机号码已被注册'} != {'status': 1, 'code': '10001', 'data': None, 'msg': '注册成功'}
+- {'code': '20110', 'data': None, 'msg': '手机号码已被注册', 'status': 0}
+?           ^  --                         ------               ^
+
++ {'code': '10001', 'data': None, 'msg': '注册成功', 'status': 1}
+?           ^^^                             ++             ^
+
+2020-03-26 09:07:06 - 【ERROR】: 
+实际结果是 {'status': 0, 'code': '20110', 'data': None, 'msg': '手机号码已被注册'} 
+Traceback (most recent call last):
+  File "C:\Users\lenovo\PycharmProjects\lmapi\testcases\test_smoke.py", line 21, in test_login_pass
+    self.assertEqual(response.json(), cases.expected)
+  File "D:\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\lib\unittest\case.py", line 1120, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: {'status': 0, 'code': '20110', 'data': None, 'msg': '手机号码已被注册'} != {'status': 1, 'code': '10001', 'data': None, 'msg': '注册成功'}
+- {'code': '20110', 'data': None, 'msg': '手机号码已被注册', 'status': 0}
+?           ^  --                         ------               ^
+
++ {'code': '10001', 'data': None, 'msg': '注册成功', 'status': 1}
+?           ^^^                             ++             ^
+
+2020-03-26 09:07:06 - 【INFO】: 
+正在以 post 方式 请求 http://test.lemonban.com/futureloan/mvc/api/member/register，参数是 {'data': {'mobilephone': '13012344325', 'pwd': 'liumei', 'regname': 'liumei'}} 
+2020-03-26 09:07:06 - 【ERROR】: 
+预期 {'status': 1, 'code': '10001', 'data': None, 'msg': '注册成功'} 
+Traceback (most recent call last):
+  File "C:\Users\lenovo\PycharmProjects\lmapi\testcases\test_smoke.py", line 21, in test_login_pass
+    self.assertEqual(response.json(), cases.expected)
+  File "D:\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\lib\unittest\case.py", line 1120, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: {'status': 0, 'code': '20110', 'data': None, 'msg': '手机号码已被注册'} != {'status': 1, 'code': '10001', 'data': None, 'msg': '注册成功'}
+- {'code': '20110', 'data': None, 'msg': '手机号码已被注册', 'status': 0}
+?           ^  --                         ------               ^
+
++ {'code': '10001', 'data': None, 'msg': '注册成功', 'status': 1}
+?           ^^^                             ++             ^
+
+2020-03-26 09:07:06 - 【ERROR】: 
+实际结果是 {'status': 0, 'code': '20110', 'data': None, 'msg': '手机号码已被注册'} 
+Traceback (most recent call last):
+  File "C:\Users\lenovo\PycharmProjects\lmapi\testcases\test_smoke.py", line 21, in test_login_pass
+    self.assertEqual(response.json(), cases.expected)
+  File "D:\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\lib\unittest\case.py", line 1120, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: {'status': 0, 'code': '20110', 'data': None, 'msg': '手机号码已被注册'} != {'status': 1, 'code': '10001', 'data': None, 'msg': '注册成功'}
+- {'code': '20110', 'data': None, 'msg': '手机号码已被注册', 'status': 0}
+?           ^  --                         ------               ^
+
++ {'code': '10001', 'data': None, 'msg': '注册成功', 'status': 1}
+?           ^^^                             ++             ^
+
+2020-03-26 09:10:46 - 【INFO】: 
+Workbook: C:\Users\lenovo\PycharmProjects\lmapi\excels\casesliumei.xlsx, Sheet: liumei
+2020-03-26 09:10:46 - 【INFO】: 
+正在以 post 方式 请求 http://test.lemonban.com/futureloan/mvc/api/member/register，参数是 {'data': {'mobilephone': '13012344324', 'pwd': 'liumei', 'regname': 'liumei'}} 
+2020-03-26 09:10:46 - 【ERROR】: 
+预期 {'status': 1, 'code': '10001', 'data': None, 'msg': '注册成功'} 
+Traceback (most recent call last):
+  File "C:\Users\lenovo\PycharmProjects\lmapi\testcases\test_smoke.py", line 21, in test_login_pass
+    self.assertEqual(response.json(), cases.expected)
+  File "D:\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\lib\unittest\case.py", line 1120, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: {'status': 0, 'code': '20110', 'data': None, 'msg': '手机号码已被注册'} != {'status': 1, 'code': '10001', 'data': None, 'msg': '注册成功'}
+- {'code': '20110', 'data': None, 'msg': '手机号码已被注册', 'status': 0}
+?           ^  --                         ------               ^
+
++ {'code': '10001', 'data': None, 'msg': '注册成功', 'status': 1}
+?           ^^^                             ++             ^
+
+2020-03-26 09:10:46 - 【ERROR】: 
+实际结果是 {'status': 0, 'code': '20110', 'data': None, 'msg': '手机号码已被注册'} 
+Traceback (most recent call last):
+  File "C:\Users\lenovo\PycharmProjects\lmapi\testcases\test_smoke.py", line 21, in test_login_pass
+    self.assertEqual(response.json(), cases.expected)
+  File "D:\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\lib\unittest\case.py", line 1120, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: {'status': 0, 'code': '20110', 'data': None, 'msg': '手机号码已被注册'} != {'status': 1, 'code': '10001', 'data': None, 'msg': '注册成功'}
+- {'code': '20110', 'data': None, 'msg': '手机号码已被注册', 'status': 0}
+?           ^  --                         ------               ^
+
++ {'code': '10001', 'data': None, 'msg': '注册成功', 'status': 1}
+?           ^^^                             ++             ^
+
+2020-03-26 09:10:46 - 【INFO】: 
+正在以 post 方式 请求 http://test.lemonban.com/futureloan/mvc/api/member/register，参数是 {'data': {'mobilephone': '13012344325', 'pwd': 'liumei', 'regname': 'liumei'}} 
+2020-03-26 09:10:46 - 【ERROR】: 
+预期 {'status': 1, 'code': '10001', 'data': None, 'msg': '注册成功'} 
+Traceback (most recent call last):
+  File "C:\Users\lenovo\PycharmProjects\lmapi\testcases\test_smoke.py", line 21, in test_login_pass
+    self.assertEqual(response.json(), cases.expected)
+  File "D:\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\lib\unittest\case.py", line 1120, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: {'status': 0, 'code': '20110', 'data': None, 'msg': '手机号码已被注册'} != {'status': 1, 'code': '10001', 'data': None, 'msg': '注册成功'}
+- {'code': '20110', 'data': None, 'msg': '手机号码已被注册', 'status': 0}
+?           ^  --                         ------               ^
+
++ {'code': '10001', 'data': None, 'msg': '注册成功', 'status': 1}
+?           ^^^                             ++             ^
+
+2020-03-26 09:10:46 - 【ERROR】: 
+实际结果是 {'status': 0, 'code': '20110', 'data': None, 'msg': '手机号码已被注册'} 
+Traceback (most recent call last):
+  File "C:\Users\lenovo\PycharmProjects\lmapi\testcases\test_smoke.py", line 21, in test_login_pass
+    self.assertEqual(response.json(), cases.expected)
+  File "D:\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\lib\unittest\case.py", line 1120, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: {'status': 0, 'code': '20110', 'data': None, 'msg': '手机号码已被注册'} != {'status': 1, 'code': '10001', 'data': None, 'msg': '注册成功'}
+- {'code': '20110', 'data': None, 'msg': '手机号码已被注册', 'status': 0}
+?           ^  --                         ------               ^
+
++ {'code': '10001', 'data': None, 'msg': '注册成功', 'status': 1}
+?           ^^^                             ++             ^
+
+2020-03-26 09:24:53 - 【INFO】: 
+Workbook: C:\Users\lenovo\PycharmProjects\lmapi\excels\casesliumei.xlsx, Sheet: liumei
+2020-03-26 09:27:36 - 【INFO】: 
+Workbook: C:\Users\lenovo\PycharmProjects\lmapi\excels\casesliumei.xlsx, Sheet: liumei
+2020-03-26 09:27:37 - 【INFO】: 
+正在以 post 方式 请求 http://test.lemonban.com/futureloan/mvc/api/member/register，参数是 {'data': {'mobilephone': '13012344324', 'pwd': 'liumei', 'regname': 'liumei'}} 
+2020-03-26 09:27:37 - 【ERROR】: 
+预期 {'status': 1, 'code': '10001', 'data': None, 'msg': '注册成功'} 
+Traceback (most recent call last):
+  File "C:\Users\lenovo\PycharmProjects\lmapi\testcases\test_smoke.py", line 21, in test_login_pass
+    self.assertEqual(response.json(), cases.expected)
+  File "D:\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\lib\unittest\case.py", line 1120, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: {'status': 0, 'code': '20110', 'data': None, 'msg': '手机号码已被注册'} != {'status': 1, 'code': '10001', 'data': None, 'msg': '注册成功'}
+- {'code': '20110', 'data': None, 'msg': '手机号码已被注册', 'status': 0}
+?           ^  --                         ------               ^
+
++ {'code': '10001', 'data': None, 'msg': '注册成功', 'status': 1}
+?           ^^^                             ++             ^
+
+2020-03-26 09:27:37 - 【ERROR】: 
+实际结果是 {'status': 0, 'code': '20110', 'data': None, 'msg': '手机号码已被注册'} 
+Traceback (most recent call last):
+  File "C:\Users\lenovo\PycharmProjects\lmapi\testcases\test_smoke.py", line 21, in test_login_pass
+    self.assertEqual(response.json(), cases.expected)
+  File "D:\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\lib\unittest\case.py", line 1120, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: {'status': 0, 'code': '20110', 'data': None, 'msg': '手机号码已被注册'} != {'status': 1, 'code': '10001', 'data': None, 'msg': '注册成功'}
+- {'code': '20110', 'data': None, 'msg': '手机号码已被注册', 'status': 0}
+?           ^  --                         ------               ^
+
++ {'code': '10001', 'data': None, 'msg': '注册成功', 'status': 1}
+?           ^^^                             ++             ^
+
+2020-03-26 09:27:37 - 【INFO】: 
+正在以 post 方式 请求 http://test.lemonban.com/futureloan/mvc/api/member/register，参数是 {'data': {'mobilephone': '13012344325', 'pwd': 'liumei', 'regname': 'liumei'}} 
+2020-03-26 09:27:37 - 【ERROR】: 
+预期 {'status': 1, 'code': '10001', 'data': None, 'msg': '注册成功'} 
+Traceback (most recent call last):
+  File "C:\Users\lenovo\PycharmProjects\lmapi\testcases\test_smoke.py", line 21, in test_login_pass
+    self.assertEqual(response.json(), cases.expected)
+  File "D:\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\lib\unittest\case.py", line 1120, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: {'status': 0, 'code': '20110', 'data': None, 'msg': '手机号码已被注册'} != {'status': 1, 'code': '10001', 'data': None, 'msg': '注册成功'}
+- {'code': '20110', 'data': None, 'msg': '手机号码已被注册', 'status': 0}
+?           ^  --                         ------               ^
+
++ {'code': '10001', 'data': None, 'msg': '注册成功', 'status': 1}
+?           ^^^                             ++             ^
+
+2020-03-26 09:27:37 - 【ERROR】: 
+实际结果是 {'status': 0, 'code': '20110', 'data': None, 'msg': '手机号码已被注册'} 
+Traceback (most recent call last):
+  File "C:\Users\lenovo\PycharmProjects\lmapi\testcases\test_smoke.py", line 21, in test_login_pass
+    self.assertEqual(response.json(), cases.expected)
+  File "D:\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\lib\unittest\case.py", line 1120, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: {'status': 0, 'code': '20110', 'data': None, 'msg': '手机号码已被注册'} != {'status': 1, 'code': '10001', 'data': None, 'msg': '注册成功'}
+- {'code': '20110', 'data': None, 'msg': '手机号码已被注册', 'status': 0}
+?           ^  --                         ------               ^
+
++ {'code': '10001', 'data': None, 'msg': '注册成功', 'status': 1}
+?           ^^^                             ++             ^
+
